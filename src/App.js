@@ -4,6 +4,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import Home from './components/home';
 import Quiz from './components/Quiz';
+import Blog from './components/Blog';
+import './styles/home.css';
+import './styles/quiz.css';
+import './styles/quizCard.css';
+import './styles/congrats.css';
+
 
 function App() {
   return (
@@ -11,6 +17,7 @@ function App() {
       <div className="container">
       <Route path="/" exact component={Home} />
       <Route path="/quiz/:quizName" component={Quiz} />
+			<Route path="/blog" component={Blog} />
       </div>
     </Router>
   );

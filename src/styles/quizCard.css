@@ -1,0 +1,28 @@
+.defaultText {
+	text-decoration: none;
+  color: inherit;
+	
+}
+
+.cardTitle {
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Nunito";
+	color: #02203c;
+	margin-bottom: 5px;
+}
+
+.numOfQuestions {
+	font-size: small;
+	font-weight: lighter;
+	font-family: "Nunito";
+	color: #02203c;
+	margin-top: 0px;
+}
+
+.cardDescription {
+	font-size: small;
+	font-weight: medium;
+	font-family: "Ubuntu";
+	color: #363636;
+}

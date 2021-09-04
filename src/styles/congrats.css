@@ -1,0 +1,85 @@
+.productCard {
+	height: 780px;
+	width: 480px;
+	margin: 0px  auto 30px  auto;
+	background-color: white;
+	padding: 5px 20px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgb(136, 136, 136);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.productCard:hover {
+	background-color: white;
+	box-shadow: 0px 4px 14px 0px rgb(100, 100, 100);
+}
+
+.productImg {
+	margin: 30px auto 0px auto;
+	width: 450px;
+	height: 320px;
+	object-fit: cover;
+}
+
+.productTitle {
+	font-size: x-large;
+	font-family: "Nunito";
+	color: #11869b;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.productDesc {
+	font-size: medium;
+	font-family: "Nunito";
+	color: #383838;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.card {
+	height: 260px;
+	width: 300px;
+	margin: 0px  auto 30px  auto;
+	background-color: white;
+	padding: 5px 20px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgb(136, 136, 136);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.card:hover {
+	background-color: white;
+	box-shadow: 0px 4px 14px 0px rgb(100, 100, 100);
+}
+
+.blogImg {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.h3 {
+	width: 60%;
+	font-size: larger;
+	font-family: "Nunito";
+	color: #00205a;
+	text-align: center;
+	margin: 60px auto 0px auto;
+}
+
+.blogTitle {
+	font-size: medium;
+	font-family: "Nunito";
+	color: #11869b;
+	text-align: center;
+}
+
+.footer {
+	height: 40px;
+	background-color: #02203c;
+}
