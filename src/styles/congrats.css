@@ -83,3 +83,29 @@
 	height: 40px;
 	background-color: #02203c;
 }
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto 0px auto;
+	width: 60%;
+}
+
+.blogh1 {
+	margin: 60px auto 0px auto;
+	font-family: "Nunito";
+	color: #00205a;
+}
+
+.img {
+	width: 50%;
+	margin: 20px auto 0px auto;
+	object-fit: cover;
+}
+
+.blogp {
+	margin: 30px auto 90px auto;
+	font-family: "Ubuntu";
+	font-size: large;
+	color: #353535;
+}

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route} from "react-router-dom";
 import Home from './components/home';
 import Quiz from './components/Quiz';
 import Blog from './components/Blog';
+import login from './components/logIn';
 import './styles/home.css';
 import './styles/quiz.css';
 import './styles/quizCard.css';
@@ -15,7 +16,8 @@ function App() {
   return (
     <Router>
       <div className="container">
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact component={login} />
+			<Route path="/home" exact component={Home} />
       <Route path="/quiz/:quizName" component={Quiz} />
 			<Route path="/blog" component={Blog} />
       </div>

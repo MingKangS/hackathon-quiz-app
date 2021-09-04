@@ -13,6 +13,7 @@ import money from '../styles/hackathon-money.png';
 import pay from '../styles/hackathon-pay.png';
 import mortgage from '../styles/hackathon-mortgage.png';
 import home from '../styles/hackathon-home.png';
+import dissapointed from '../styles/hackathon-dissapointed.png';
 
 const Quiz = () => {
 	let { quizName } = useParams();
@@ -66,7 +67,7 @@ const Quiz = () => {
 								<div className="congratsContainer">
 									<h1 className="toughLuckh1">Tough luck!</h1>
 									<h3 className="congratsh3">You have scored <b>{points} out of {quiz.questions.length}</b> questions on the following quiz: <b>{quizName.replace("-", " ")}.</b></h3>
-									<img src={congrats} className="congratsImg"></img>
+									<img src={dissapointed} className="congratsImg"></img>
 									<h3 className="h3">We have found some gaps in your financial literacy knowledge. You might find the following blogs useful and interesting:</h3>
 									<div className="quizCardContainer">
 										<a className="card defaultText" href="../blog">
