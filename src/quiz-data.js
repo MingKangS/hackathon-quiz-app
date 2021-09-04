@@ -5,9 +5,8 @@ export default {
 			["question agn?", ["Yes2", "This is a good choice2"], ["No2", "This is a bad choice2"]]
 		],
 		description: "a good question",
-		categories: ["finance"],
+		categories: ["finance", ], ]
 	}
-	asdihfjasbfjasd
 
 	
 }
