@@ -1,6 +1,6 @@
 const login = () => {
 	return ( 
-		<div className="geryBg c">
+		<div className="geryBg c h100">
 			<div className="form">
 				<h1 className="formh1">Welcome to Interactive Financial Literacy Quiz!</h1>
 				<h3 className="formh3">Please sign up using:</h3>

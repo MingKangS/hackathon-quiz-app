@@ -56,6 +56,7 @@
 .explanation {
 	margin: 10px auto 10px 60px;
 	font-family: "Ubuntu";
+	width: 90%;
 }
 
 .buttonContainer {
@@ -66,10 +67,28 @@
 
 .prevButton {
 	margin: 0px auto 0px 60px;
+	width: 60px;
+	height: 30px;
+	background-color: #02203c;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Nunito";
+	padding-top: 7px;
 }
 
 .nextButton {
 	margin: 0px 80px 0px auto;
+	width: 60px;
+	height: 30px;
+	background-color: #02203c;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Nunito";
+	padding-top: 7px;
 }
 
 .button {

@@ -47,12 +47,12 @@ const Quiz = () => {
 									<img src={congrats} className="congratsImg"></img>
 									<h3 className="h3">Well done on the quiz! It seems that you good financial knowledge on this topic. You have earned yourself a discount on the following <b>Hong Leong Bank</b> products: </h3>
 									<div className="quizCardContainer">
-										<a className="productCard defaultText" href="https://www.hlb.com.my/en/personal-banking/loans/property-loan/home-loan.html">
+										<a className="productCard defaultText" href="https://www.hlb.com.my/en/personal-banking/loans/property-loan/home-loan.html" target="_blank">
 												<img src={home} className="productImg"></img>
 												<h4 className="productTitle"> Home Loan </h4>
 												<h3 className="productDesc">If you’re thinking of getting a new home, Hong Leong Bank’s Housing Loan is the one for you. A competitive home loan package with flexibility to make extra payment and daily interest calculation that will help you save in interest.Daily interest calculation for interest saving. A term loan facility to suit your financial needs. Mortgage Decreasing Term Assurance is a term life insurance that covers death and total permanent disability. Provide additional financial protection for you and your family with slight increase on your monthly instalments. Flexibility to make extra payments in any amount at any time. Hassle free payment with: Standing Instructions from your Hong Leong Bank / Hong Leong Islamic Bank savings/current account. MEPS IBG/Internet Banking (e.g. www.hongleongconnect.my)</h3>
 										</a>
-										<a className="productCard defaultText" href="https://www.hlb.com.my/en/personal-banking/loans/property-loan/mortgage-plus.html">
+										<a className="productCard defaultText" href="https://www.hlb.com.my/en/personal-banking/loans/property-loan/mortgage-plus.html" target="_blank">
 												<img src={mortgage} className="productImg"></img>
 												<h4 className="productTitle"> MortgagePlus </h4>
 												<h3 className="productDesc"> With MortgagePlus you can finance your property with complete flexibility to save on interest automatically. MortgagePlus links your Home Loan to a current account to give you more savings. The daily balance in your current account is automatically offset against your principal home loan account, thus reducing your daily interest charges nterest on your loan is computed on daily basis and is reduced as soon as extra payment is made. Maximize on interest saving when you consolidate all your funds into current account linked to the loan and utilize this account for all your banking transactional needs. Quick access to your funds via branch, cheque book, ATM and Internet Banking from your current account. Designed with you in mind, making it easier and more affordable for you to own a home.</h3>
@@ -98,7 +98,7 @@ const Quiz = () => {
 							<p>or</p>
 							<div className="shareTwitter"><h4 className="shareh4">Twitter</h4></div>
 						</div>
-						<p className="returnHome">Click here to return to <a href="/">home page.</a></p>
+						<p className="returnHome">Click here to return to <a href="/home">home page.</a></p>
 						<div className="footer"></div>
 					</div>
 			}
@@ -121,7 +121,7 @@ const Quiz = () => {
 
 				<div className="buttonContainer">
 					{ currQuestionNumber > 0 &&
-					<button 
+					<div
 						className="prevButton button" 
 						onClick={() => {
 							setCurrQuestionNumber(currQuestionNumber-1)
@@ -129,10 +129,10 @@ const Quiz = () => {
 						}}
 					>
 						Prev
-					</button>	
+					</div>	
 				}
 				{ currQuestionNumber < quiz.questions.length &&
-					<button 
+					<div
 						className="nextButton button" 
 						onClick={() => {
 							setCurrQuestionNumber(currQuestionNumber+1)
@@ -140,7 +140,7 @@ const Quiz = () => {
 						}}
 					>
 						Next
-					</button>
+					</div>
 				}
 				</div>
 				</>

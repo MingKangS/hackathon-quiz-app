@@ -82,6 +82,8 @@
 .footer {
 	height: 40px;
 	background-color: #02203c;
+	margin-top: auto;
+	margin-bottom: 0px;
 }
 
 .flex {

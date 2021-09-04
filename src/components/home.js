@@ -6,7 +6,7 @@ const Home = () => {
 	const [displayedQuizCards, setDisplayedQuizCards] = useState(Object.keys(quizData))
 	const [selectedcategories, setSelectedcategories] = useState([])
 
-	const categories = ["Investments", "Spending", "Financial planning", "Loans", "Credit cards", "Career", "Retirement"]
+	const categories = ["Investments", "Spending", "Financial planning", "Loans", "Credit cards", "Mortgage", "Finance"]
 
 	useEffect(() => {
 		const newDisplayedQuizCards = [...Object.keys(quizData)].filter((q) => {
@@ -45,7 +45,7 @@ const Home = () => {
           <QuizCard quizName={quiz}/>
         ))}
 			</div>
-			
+			<div className="footer"></div>
 		</div>
 	 );
 }
